@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Olá, mundo!</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navBarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pacotes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="">Praia</a>
+                            <a class="dropdown-item" href="">Serra</a>
+                            <a class="dropdown-item" href="">Cidade</a>
+                            <a class="dropdown-item" href="">Campo</a>
+                            <a class="dropdown-item" href="">Internacionais</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Minha conta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </head>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagens/carousel1.webp" alt="Primeiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/carousel3.jpg" alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide"
+                            alt="Terceiro Slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoParis">
+                        <img src="imagens/paris.jpg" alt="paris">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoParis" tabindex="-1" role="dialog"
+                    aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="TituloModalCentralizado">Paris</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="imagens/paris.jpg" alt="paris">
+                                Viagem para Paris em hotel com 6 diárias.
+                                Valor: R$5.000,00
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoCC">
+                        <img src="imagens/cidade_do_cabo.jpg" alt="cidade do cabo">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoCC" tabindex="-1" role="dialog"
+                    aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="TituloModalCentralizado">Cicade do Cabo</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="imagens/cidade_do_cabo.jpg" alt="paris">
+                                Viagem para Cidade do Cabo em hotel com 6 diárias.
+                                Valor: R$5.000,00
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoDubai">
+                        <img src="imagens/dubai.jpg" alt="Dubai">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoDubai" tabindex="-1" role="dialog"
+                    aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="TituloModalCentralizado">Dubai</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="imagens/dubai.jpg" alt="dubai">
+                                Viagem para Dubai em hotel com 6 diárias.
+                                Valor: R$5.000,00
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoHK">
+                        <img src="imagens/hong_kong.jpg" alt="hong_kong">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoHK" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Hong Kong</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="imagens/hong_kong.jpg" alt="dubai">
+                            Viagem para Hong Kong em hotel com 6 diárias.
+                            Valor: R$5.000,00
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoIndia">
+                        <img src="imagens/india.jpg" alt="India">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoIndia" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">India</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="imagens/india.jpg" alt="dubai">
+                            Viagem para India em hotel com 6 diárias.
+                            Valor: R$5.000,00
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoMP">
+                        <img src="imagens/Machu_Picchu.jpg" alt="paris">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoMP" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Machu Pichu</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="imagens/Machu_Picchu.jpg" alt="dubai">
+                            Viagem para Machu Puchu em hotel com 6 diárias.
+                            Valor: R$5.000,00
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoMoscou">
+                        <img src="imagens/moscou.jpg" alt="Moscou">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoMoscou" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Moscou</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="imagens/moscou.jpg" alt="dubai">
+                            Viagem para Moscou em hotel com 6 diárias.
+                            Valor: R$5.000,00
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoRio">
+                        <img src="imagens/rio.jpg" alt="Rio">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoRio" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Rio de Janeiro</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="imagens/rio.jpg" alt="dubai">
+                            Viagem para Rio em hotel com 6 diárias.
+                            Valor: R$5.000,00
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoRoma">
+                        <img src="imagens/roma.jpg" alt="Roma">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoRoma" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Roma</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="imagens/roma.jpg" alt="dubai">
+                            Viagem para Roma em hotel com 6 diárias.
+                            Valor: R$5.000,00
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoSP">
+                        <img src="imagens/sp.jpg" alt="São Paulo">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoSP" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">São Paulo</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="imagens/sp.jpg" alt="SP">
+                            Viagem para São Paulo em hotel com 6 diárias.
+                            Valor: R$5.000,00
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoTokyo">
+                        <img src="imagens/tokyo.jpg" alt="paris">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoTokyo" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Tokyo</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="imagens/tokyo.jpg" alt="Tokyo">
+                            Viagem para Tokyo em hotel com 6 diárias.
+                            Valor: R$5.000,00
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal"
+                        data-target="#ModalCentralizadoXangai">
+                        <img src="imagens/xangai.jpg" alt="paris">
+                        Detalhes</a>
+                </div>
+                <div class="modal fade" id="ModalCentralizadoXangai" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Xangai</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="imagens/xangai.jpg" alt="Xangai">
+                            Viagem para Xangai em hotel com 6 diárias.
+                            Valor: R$5.000,00
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <a href="login.html"><button type="button" class="btn btn-primary">Comprar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <section>
+
+
+        </section>
+
+        <footer>
+            JFK - Todos os direitos reservados
+        </footer>
+        <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
+            aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">Título do modal</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

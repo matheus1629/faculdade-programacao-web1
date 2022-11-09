@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style type="text/css">
+        .btn {
+            background-color: rgb(191, 50, 50);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Nome Completo</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Endereço de email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+    </div>
+
+    <div class="form-group">
+        <label for="dataNascimento">Data de Nascimento</label>
+        <input class="form-control" id="dataNascimento" type="date">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="inputEstado">Estado</label>
+        <select id="inputEstado" class="form-control">
+            <option selected>Escolher...</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+    </div>
+    <div class="form-group">Sexo:
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao1">
+            <label class="form-check-label" for="exampleRadios2">
+                Masculino
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+            <label class="form-check-label" for="exampleRadios2">
+                Feminino
+            </label>
+        </div>
+    </div>
+
+    <div class="form-group">Categoria de interesse(marque mais de uma):
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Praia" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                Praia
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Campo" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                Campo
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Nacionais" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                Nacionais
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Internacionais" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                Internacionais
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Serra" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                Serra
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Cidade" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                Cidade
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Limpar</button>
+        <button type="submit" class="btn btn-primary"><a href="pgto.html">Salvar</a></button>
+    </div>
+</body>
+
+</html>
